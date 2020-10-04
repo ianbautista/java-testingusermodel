@@ -2,10 +2,10 @@
 
 A student that completes this project shows they can:
 
-* explain what automated testing is and why it is important
-* use JUnit to write, run, and interpret the output of unit tests for services with or without database access
-* use JUnit to write, run, and interpret the output of unit tests for controllers
-* implement Automated Integration Testing for REST APIs using JUnit and RestAssured
+- explain what automated testing is and why it is important
+- use JUnit to write, run, and interpret the output of unit tests for services with or without database access
+- use JUnit to write, run, and interpret the output of unit tests for controllers
+- implement Automated Integration Testing for REST APIs using JUnit and RestAssured
 
 ## Introduction
 
@@ -15,9 +15,9 @@ This is a basic database scheme with users, user emails, and user roles. This Ja
 
 The data layout is as follows
 
-* User is the driving table.
-* Useremails have a Many-To-One relationship with User. Each User has many user email combinations. Each user email combination has only one User.
-* Roles have a Many-To-Many relationship with Users.
+- User is the driving table.
+- Useremails have a Many-To-One relationship with User. Each User has many user email combinations. Each user email combination has only one User.
+- Roles have a Many-To-Many relationship with Users.
 
 ![Image of Database Layout](usersfinaldb.png)
 
@@ -2345,14 +2345,14 @@ Status 201 Created
 
 ## Instructions
 
-* [ ] Please fork and clone this repository.
-* [ ] This repository does have a starter project, so you must start with that application inside of the cloned repository folder. Regularly commit and push your code as appropriate.
+- [x] Please fork and clone this repository.
+- [x] This repository does have a starter project, so you must start with that application inside of the cloned repository folder. Regularly commit and push your code as appropriate.
 
 ### MVP
 
-* [ ] Provide unit testing for the User Service. To reach MVP you must provide at least 75% coverage of the code in User Service as reported in IntelliJ
-* [ ] Provide unit testing for the User Controller. To reach MVP you must provide at least 75% coverage of the code in User Controller as reported in IntelliJ
+- [x] Provide unit testing for the User Service. To reach MVP you must provide at least 75% coverage of the code in User Service as reported in IntelliJ
+- [x] Provide unit testing for the User Controller. To reach MVP you must provide at least 75% coverage of the code in User Controller as reported in IntelliJ
 
 ### Stretch Goal
 
-* [ ] Provide integration testing for the User Controller. To reach MVP you must provide at least 75% coverage of the code in User Controller as reported in IntelliJ
+- [ ] Provide integration testing for the User Controller. To reach MVP you must provide at least 75% coverage of the code in User Controller as reported in IntelliJ
